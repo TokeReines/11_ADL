@@ -1,0 +1,23 @@
+
+[tool.poetry]
+name = "11_ADL"
+version = "0.1.0"
+description = ""
+authors = ["Toke Reines <toke.reines@gmail.com>"]
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wandb = "^0.16.6"
+ruff = "^0.4.1"
+ipykernel = "^6.29.4"
+matplotlib = "^3.8.4"
+torch = "^2.0.0"  # or the appropriate version for your system
+# torchvision = "^0.15"  # same note as above
+# torch-directml = "^0.2.0.dev230426"
+
