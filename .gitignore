@@ -1,0 +1,5 @@
+*.ckpt
+**/wandb/
+# Ignore all wandb folders
+!wandb/
+wandb/
